@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- Ce XSL permet la mise en forme de fichiers de discussions iAdvize au format XML -->
+<!-- Cette feuille de style XSL décrit la transformation en HTML d'un fichier de discussions iAdvize au format XML. -->
+<!-- La mise en forme est réalisée avec Bootstrap (http://getbootstrap.com). -->
 <!-- Auteur: Guillaume Macaire -->
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
@@ -13,7 +14,6 @@
                 <title><xsl:value-of select="$title" /></title>
                 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
                 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
-                <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
             </head>
 
             <body>
