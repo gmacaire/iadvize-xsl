@@ -9,6 +9,8 @@ La feuille de style XSL iadvize.xsl décrit la transformation en HTML d'un fichi
 
 Télécharger la feuille de style XSL iadvise.xsl à l'URL https://raw.githubusercontent.com/gmacaire/iadvize-xsl/master/iadvize.xsl.
 
+**Important :** la feuille de style doit être stockée dans le répertoire contenant les discussions iAdvize au format XML.
+
 ## 2. Editer le fichier de discussions iAdvize
 
 Dans le fichier XML de discussions iAdvize, remplacer la première balise : 
